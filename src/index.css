@@ -1,0 +1,59 @@
+img{
+  height:350px;
+  width: 300px;
+  border-radius: 10px;
+
+}
+audio{
+  height: 70px;
+  width: 400px;
+}
+
+.body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+
+  background-image: url("./assets/bgimg5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter:blur(100px);
+}
+
+audio::-webkit-media-controls-play-button {
+  display: none;
+}
+
+button{
+  height: 50px;
+  width: 90px;
+  border-radius: 60px;
+  margin-right: 20px;
+  transition: all 0.2ms ease-out;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+  background-color: rgb(192, 255, 252);
+}
+
+.musicsettings{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover{
+  height: 60px;
+  width: 100px;
+  background-color:rgb(10, 250, 238) ;
+}
+button:active{
+  background-color:rgb(4, 137, 128);
+  box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
